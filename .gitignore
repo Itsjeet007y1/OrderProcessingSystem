@@ -1,0 +1,57 @@
+# Root .gitignore for the OrderManagementSystem multi-module Maven project
+# This file is intended to hold repository-wide ignores while keeping
+# module-specific .gitignore files in each module as they are.
+
+# Maven
+target/
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+*.tmp
+*.swp
+
+# IDEs and editors
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+
+.vscode/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven output and helper files
+dependency-reduced-pom.xml
+release.properties
+
+# Environment files
+.env
+
+# Keep module-level .gitignore files intact
+# See api-gateway/.gitignore, customer-service/.gitignore, discovery-server/.gitignore
+
